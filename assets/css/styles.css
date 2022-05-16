@@ -1,9 +1,22 @@
+header {
+    height: 10vh;
+}
+
 main {
     background-color: #0b7154;
     color: whitesmoke;
+    height: 83vh;
+}
+
+footer {
+    height: 7vh;
 }
 
 .carta {
     height: 220px;
     
+}
+
+.mask {
+    font-size: 30px;
 }
