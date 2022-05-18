@@ -1,4 +1,5 @@
-const decks = () => {
+// Construccion del mazo
+const buildCardDeck = () => {
   let cards = [];
   let letter = ["C", "D", "H", "S"];
   let word = ["A", "J", "K", "Q"];
@@ -18,4 +19,11 @@ const decks = () => {
   return cards;
 };
 
-console.table(decks());
+let deck = buildCardDeck()
+
+// Barajar carta
+const shuffleDeckCards = (cards) => {
+return _.shuffle(cards)
+}
+
+console.log(shuffleDeckCards(deck));
